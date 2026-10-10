@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse internships by keyword, domain, and work mode.">
+  <title>Internship Board | Find your next opportunity</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to internship listings</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Internship Board home"><span class="brand-mark" aria-hidden="true">IB</span> Internship Board</a>
+      <nav aria-label="Main navigation"><a href="#listings">Explore internships</a><a href="#about">About</a></nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p>
+        <h1 id="hero-title">Find an internship.<br><span>Build your future.</span></h1>
+        <p class="hero-copy">Explore opportunities from teams looking for curious people like you.</p>
+        <a class="primary-link" href="#listings">Explore openings <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-card art-card-one"><span>✦</span><b>Learn by doing</b><small>Real-world experience</small></div>
+        <div class="art-card art-card-two"><span>↗</span><b>Grow your skills</b><small>One opportunity at a time</small></div>
+        <div class="art-orbit"></div>
+      </div>
+    </section>
+
+    <section class="listing-section" id="listings" aria-labelledby="listings-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">OPPORTUNITIES FOR YOU</p><h2 id="listings-title">Explore internships</h2></div>
+        <p class="section-note">Find a role that fits your interests.</p>
+      </div>
+
+      <form id="filters" class="filters" role="search" aria-label="Filter internships">
+        <div class="field search-field">
+          <label for="search">Search internships</label>
+          <div class="input-wrap"><span aria-hidden="true">⌕</span><input id="search" name="search" type="search" placeholder="Role, company, or keyword"></div>
+        </div>
+        <div class="field">
+          <label for="domain">Domain</label>
+          <select id="domain" name="domain">
+            <option value="all">All domains</option>
+            <option value="Technology">Technology</option>
+            <option value="Data">Data &amp; AI</option>
+            <option value="Design">Design</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Business">Business</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mode">Work mode</label>
+          <select id="mode" name="mode">
+            <option value="all">All work modes</option>
+            <option value="Remote">Remote</option>
+            <option value="Hybrid">Hybrid</option>
+            <option value="On-site">On-site</option>
+          </select>
+        </div>
+        <button class="clear-button" id="clear-filters" type="button">Clear filters</button>
+      </form>
+
+      <div class="results-line">
+        <p id="result-count" aria-live="polite" aria-atomic="true">Loading internships…</p>
+        <span class="results-decoration" aria-hidden="true">✳ Curated for curious minds</span>
+      </div>
+      <div id="status" class="status" role="status" hidden></div>
+      <div id="internship-list" class="internship-grid" aria-busy="true"></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow">A LITTLE ABOUT US</p><h2 id="about-title">Small steps. Big possibilities.</h2></div>
+      <p>Discover fictional sample listings, practise your search, and find the kind of work you want to grow into. New experiences start with one click.</p>
+    </section>
+  </main>
+  <footer><div class="footer-inner"><a class="brand footer-brand" href="./"><span class="brand-mark" aria-hidden="true">IB</span> Internship Board</a><p>Made for learners, built for everyone.</p><span>© 2026 Internship Board</span></div></footer>
+</body>
+</html>

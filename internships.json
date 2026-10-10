@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "company": "BrightLayer Studio",
+    "domain": "Technology",
+    "description": "Build accessible web interfaces, collaborate with designers, and turn product ideas into responsive experiences.",
+    "location": "India",
+    "mode": "Remote",
+    "duration": "3 months",
+    "stipend": "₹8,000–₹12,000/mo",
+    "skills": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "title": "Data Analyst Intern",
+    "company": "Northstar Insights",
+    "domain": "Data",
+    "description": "Explore datasets, create clear dashboards, and share useful findings with a curious analytics team.",
+    "location": "Hyderabad",
+    "mode": "Hybrid",
+    "duration": "6 months",
+    "stipend": "₹10,000/mo",
+    "skills": ["Python", "SQL", "Excel"]
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Intern",
+    "company": "Mango Pixel",
+    "domain": "Design",
+    "description": "Help research user needs, sketch flows, and create thoughtful prototypes for digital products.",
+    "location": "India",
+    "mode": "Remote",
+    "duration": "3 months",
+    "stipend": "₹7,000–₹10,000/mo",
+    "skills": ["Figma", "Prototyping", "Research"]
+  },
+  {
+    "id": 4,
+    "title": "AI / Machine Learning Intern",
+    "company": "Cobalt Labs",
+    "domain": "Data",
+    "description": "Support experiments, prepare training data, and learn how machine-learning models are evaluated.",
+    "location": "Bengaluru",
+    "mode": "On-site",
+    "duration": "4 months",
+    "stipend": "₹15,000/mo",
+    "skills": ["Python", "Pandas", "ML"]
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Intern",
+    "company": "Goodday Collective",
+    "domain": "Marketing",
+    "description": "Help plan campaigns, research audiences, and learn to measure content performance across channels.",
+    "location": "India",
+    "mode": "Remote",
+    "duration": "2 months",
+    "stipend": "₹5,000/mo",
+    "skills": ["Content", "SEO", "Analytics"]
+  },
+  {
+    "id": 6,
+    "title": "Business Operations Intern",
+    "company": "Evergreen Works",
+    "domain": "Business",
+    "description": "Organise project information, improve simple workflows, and help the team make informed decisions.",
+    "location": "Hyderabad",
+    "mode": "Hybrid",
+    "duration": "3 months",
+    "stipend": "₹8,000/mo",
+    "skills": ["Excel", "Communication", "Research"]
+  },
+  {
+    "id": 7,
+    "title": "JavaScript Developer Intern",
+    "company": "Orbit Foundry",
+    "domain": "Technology",
+    "description": "Create interactive features, debug UI issues, and practise maintainable JavaScript with code reviews.",
+    "location": "India",
+    "mode": "Remote",
+    "duration": "3 months",
+    "stipend": "₹9,000/mo",
+    "skills": ["JavaScript", "DOM", "Git"]
+  },
+  {
+    "id": 8,
+    "title": "Content & Social Media Intern",
+    "company": "Paper Kite Media",
+    "domain": "Marketing",
+    "description": "Draft short-form content, support the editorial calendar, and learn what makes online communities grow.",
+    "location": "Hyderabad",
+    "mode": "On-site",
+    "duration": "2 months",
+    "stipend": "₹6,000/mo",
+    "skills": ["Writing", "Social Media", "Creativity"]
+  },
+  {
+    "id": 9,
+    "title": "Product Design Research Intern",
+    "company": "Little Lantern",
+    "domain": "Design",
+    "description": "Help conduct lightweight user research, organise feedback, and turn patterns into design suggestions.",
+    "location": "India",
+    "mode": "Hybrid",
+    "duration": "4 months",
+    "stipend": "₹8,000/mo",
+    "skills": ["Research", "Figma", "Accessibility"]
+  }
+]
